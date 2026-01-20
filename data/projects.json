@@ -1,0 +1,134 @@
+[
+  {
+    "id": "branding-marvel-presentation",
+    "title": "Презентация бренда MARVEL",
+    "subtitle": "Концепт презентации бренда и визуальной айдентики",
+    "directions": [
+      "Презентация",
+      "Айдентика",
+      "Брендинг"
+    ],
+    "difficulty": "Средняя",
+    "year": "2024",
+    "thumbnail": "./projects/project1.png",
+    "primaryPdf": "./projects/Презентация к курсовой работе_Зимина А._МАРВЕЛ.pdf",
+    "extraFiles": [
+      {
+        "type": "pdf",
+        "label": "Основная презентация",
+        "path": "./projects/Презентация к курсовой работе_Зимина А._МАРВЕЛ.pdf"
+      }
+    ]
+  },
+  {
+    "id": "branding-city-vladivostok",
+    "title": "Айдентика города Владивосток",
+    "subtitle": "Визуальная система и гайдлайн городского бренда",
+    "directions": [
+      "Айдентика",
+      "Городской брендинг",
+      "Гайдлайн"
+    ],
+    "difficulty": "Сложная",
+    "year": "2024",
+    "thumbnail": "./projects/project2.png",
+    "primaryPdf": "./projects/Владивосток.pdf",
+    "extraFiles": [
+      {
+        "type": "pdf",
+        "label": "Гайдлайн бренда Владивосток",
+        "path": "./projects/Владивосток.pdf"
+      },
+      {
+        "type": "pdf",
+        "label": "Развёрнутый гайдлайн",
+        "path": "./projects/Гайдлайн.pdf"
+      }
+    ]
+  },
+  {
+    "id": "education-it-project",
+    "title": "ИТ‑проект — визуальная часть",
+    "subtitle": "Оформление и визуальные решения для ИТ‑проекта",
+    "directions": [
+      "Презентация",
+      "Визуализация данных"
+    ],
+    "difficulty": "Средняя",
+    "year": "2023",
+    "thumbnail": "./projects/project3.png",
+    "primaryPdf": "./projects/ит-проект.pdf",
+    "extraFiles": [
+      {
+        "type": "pdf",
+        "label": "Презентация ИТ‑проекта",
+        "path": "./projects/ит-проект.pdf"
+      }
+    ]
+  },
+  {
+    "id": "promo-design",
+    "title": "Промо‑материалы",
+    "subtitle": "Разработка промо‑материалов и визуальных акцентов",
+    "directions": [
+      "Промо",
+      "Графический дизайн"
+    ],
+    "difficulty": "Лёгкая",
+    "year": "2023",
+    "thumbnail": "./projects/project4.png",
+    "primaryPdf": "./projects/Promo_Зимина А.О..pdf",
+    "extraFiles": [
+      {
+        "type": "pdf",
+        "label": "Промо‑презентация",
+        "path": "./projects/Promo_Зимина А.О..pdf"
+      }
+    ]
+  },
+  {
+    "id": "course-presentation-main",
+    "title": "Итоговая презентация",
+    "subtitle": "Систематизация проектов и визуального стиля",
+    "directions": [
+      "Презентация",
+      "Сборка портфолио"
+    ],
+    "difficulty": "Средняя",
+    "year": "2024",
+    "thumbnail": "./projects/project5.png",
+    "primaryPdf": "./projects/Презентация_Зимина А.О._3-МД-5.pdf",
+    "extraFiles": [
+      {
+        "type": "pdf",
+        "label": "Общая презентация",
+        "path": "./projects/Презентация_Зимина А.О._3-МД-5.pdf"
+      },
+      {
+        "type": "pdf",
+        "label": "Дополнительная презентация",
+        "path": "./projects/Презентация_Баймайнд_Зимина А.О._Голубова В.В.pdf"
+      }
+    ]
+  },
+  {
+    "id": "video-presentation",
+    "title": "Видео‑презентация",
+    "subtitle": "Краткий видео‑разбор ключевых проектов",
+    "directions": [
+      "Видео",
+      "Презентация"
+    ],
+    "difficulty": "Средняя",
+    "year": "2024",
+    "thumbnail": "./projects/project6.png",
+    "primaryVideo": "./projects/Видео-презентация_Зимина А.О._3-МД-5.mp4",
+    "extraFiles": [
+      {
+        "type": "video",
+        "label": "Видео‑презентация",
+        "path": "./projects/Видео-презентация_Зимина А.О._3-МД-5.mp4"
+      }
+    ]
+  }
+]

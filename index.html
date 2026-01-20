@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Портфолио графического дизайнера</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>Зимина Анастасия<span class="accent"> — графический дизайнер</span></h1>
+      <p class="subtitle">
+        Графический дизайнер с образованием в СПГУПТД "Прикладная информатика в дизайне". Занимаюсь разработкой
+        айдентики, фирменного стиля, презентаций, видео-презентаций, гайдлайнов и брендбуков, логотипов, и много
+        другого.
+      </p>
+    </div>
+  </header>
+
+  <main class="container main">
+    <aside class="filters">
+      <div class="filter-section">
+        <h3><span>Направления</span></h3>
+        <div id="tech-filters" class="category-filters"></div>
+      </div>
+
+      <div class="filter-section">
+        <h3><span>Сложность</span></h3>
+        <div id="difficulty-filters" class="type-filters"></div>
+      </div>
+
+      <button id="reset-filters" class="clear-btn">
+        Сбросить все фильтры
+      </button>
+    </aside>
+
+    <section>
+      <div class="portfolio-header">
+        <div>
+          <h2>Портфолио</h2>
+          <p class="subtitle">Работы по брендингу, презентациям и визуальным концептам.</p>
+        </div>
+        <div id="active-filters-label" class="active-filters"></div>
+      </div>
+
+      <div id="projects-grid" class="projects-grid"></div>
+
+      <div id="empty-state" hidden>
+        По выбранным фильтрам проектов нет. Попробуйте убрать часть ограничений.
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      Зимина Анастасия | Графический дизайнер | Санкт-Петербург, Россия | © 2026 Портфолио-резюме. Все права защищены.
+    </div>
+  </footer>
+
+  <!-- Модальное окно проекта -->
+  <div id="project-modal" class="modal" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-modal="true">
+      <button class="modal-close" type="button" data-modal-close>&times;</button>
+      <div class="modal-body">
+        <img id="modal-image" class="modal-image" alt="">
+
+        <h2 id="modal-title" class="modal-title"></h2>
+        <p id="modal-subtitle" class="modal-description"></p>
+
+        <div class="modal-details">
+          <div class="detail-item">
+            <h4>Сложность</h4>
+            <p id="modal-difficulty"></p>
+          </div>
+          <div class="detail-item">
+            <h4>Направления</h4>
+            <p id="modal-tags-text"></p>
+          </div>
+        </div>
+
+        <div id="modal-media" class="modal-media"></div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>
